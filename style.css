@@ -1,12 +1,16 @@
+body {
+    line-height: 1;
+    background-color: #283148;
+}
 .form{
     text-align: center;     
     width: 330px;
-    height: 260px;
+    height: 500px;
     background-color: rgb(122, 68, 68);
     margin: auto;
     font-size: 20px;
     border-radius: 10px;
-    background-color: chartreuse;
+    background-color: #bbbbbb;
     
 }
 .login{
@@ -16,4 +20,45 @@
 .logo{
     font-family: fantasy;
     color:black;
+}
+.google{
+    margin: 10px;
+}
+.navbar {
+    font-family: 'DM Serif Text', serif;
+    font-size: 18px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #283148;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e9eec9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logokecil {
+    width: 80px;
+    height: 35px;
+}
+.footer {
+    background-color:#bbbbbb;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.contactus {
+    font-family: 'DM Serif Text', serif;
+    color: #913535;
 }
